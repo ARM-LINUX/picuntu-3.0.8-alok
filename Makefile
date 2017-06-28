@@ -204,6 +204,7 @@ ifneq ($(wildcard ../jb/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3),)
 CROSS_COMPILE	?= ../jb/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
 endif
 CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
+CORSS_COMPILE   ?= /usr/bin/arm-linux-gnueabihf-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
