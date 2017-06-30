@@ -47,3 +47,4 @@ Merged into aloksinha's kernel the following ones:
 - The kernel has not been tested for compile yet
 
 ==========
+gcc-arm-linux-gnueabihf=4:4.8.2-1   
